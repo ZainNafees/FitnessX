@@ -1,3 +1,4 @@
+
 FitnessX is an all-in-one health and fitness app tailored for Android users. It provides a wide range of features to encourage a healthy and active lifestyle.
 
 Features
@@ -27,3 +28,13 @@ FitnessX is designed to help users lead healthier, more active lives with ease a
 ![8](https://github.com/ZainNafees/FitnessX/assets/118672184/7391ce5b-c0c1-4812-aac7-e821a4807abe)
 ![9](https://github.com/ZainNafees/FitnessX/assets/118672184/d36fc1ac-35ee-4f11-bd7e-590fade2743a)
 ![10](https://github.com/ZainNafees/FitnessX/assets/118672184/d670d53d-fd70-477a-9dde-b07ab70310af)
+![11](https://github.com/ZainNafees/FitnessX/assets/118672184/09cb4d34-7fe8-4237-9faa-bd625aec6546)
+![12](https://github.com/ZainNafees/FitnessX/assets/118672184/ec0274df-1a81-413d-b047-22e6125e47c8)
+![13](https://github.com/ZainNafees/FitnessX/assets/118672184/cd9c530f-3377-4e34-a8b2-ce91843cd1c8)
+![15](https://github.com/ZainNafees/FitnessX/assets/118672184/e8b52186-5e0b-4f09-89f5-9b2118a199ad)
+![14](https://github.com/ZainNafees/FitnessX/assets/118672184/643ea0d2-41cd-40e0-89b2-4298ab15b93a)
+![16](https://github.com/ZainNafees/FitnessX/assets/118672184/2f46802e-5e25-4185-9e48-40f2a2bffd31)
+![17](https://github.com/ZainNafees/FitnessX/assets/118672184/8a81a5c5-71b3-47d8-b50d-a17cc5c9519b)
+![18](https://github.com/ZainNafees/FitnessX/assets/118672184/15218729-8fa3-496b-8bb7-1b60eab538b6)
+
+
