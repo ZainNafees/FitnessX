@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Resgistration">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey there,"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="16dp"
+        android:textFontWeight="400"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:textColor="#1D1617"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="20dp"
+        android:textFontWeight="700"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="#1D1617"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="14dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#F7F8F8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/profile"/>
+
+            <EditText
+                android:id="@+id/fname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:background="@null"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center|start"
+                android:hint="First Name"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:textColor="#ADA4A5"
+                android:textFontWeight="400"
+                android:textSize="12dp"
+                tools:ignore="TextSizeCheck,TextSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="14dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#F7F8F8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/profile"/>
+
+            <EditText
+                android:id="@+id/lname"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center|start"
+                android:background="@null"
+                android:hint="Last Name"
+                android:textColor="#ADA4A5"
+                android:textFontWeight="400"
+                android:textSize="12dp"
+                android:maxLines="1"
+                android:inputType="textPersonName"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="14dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#F7F8F8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/message"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center|start"
+                android:hint="Email"
+                android:background="@null"
+                android:textColor="#ADA4A5"
+                android:textFontWeight="400"
+                android:textSize="12dp"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                tools:ignore="TextSizeCheck" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="315dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="14dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#F7F8F8">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:layout_marginStart="15dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/lock"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="238dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center|start"
+                android:hint="Password"
+                android:background="@null"
+                android:textColor="#ADA4A5"
+                android:textFontWeight="400"
+                android:textSize="12dp"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                tools:ignore="TextSizeCheck" />
+
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center|end"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/hidepassword"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            app:cornerRadius="99dp"
+            android:backgroundTint="#92A3FD"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textFontWeight="700" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp">
+
+        <View
+            android:layout_width="135dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#DDDADA"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Or"
+            android:textColor="#1D1617"
+            android:textSize="12dp"
+            android:layout_marginStart="5dp"/>
+
+        <View
+            android:layout_width="135dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:background="#DDDADA"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/google"
+            android:layout_marginEnd="15dp"/>
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fb"
+            android:layout_marginStart="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:text="Already have an account?"
+            android:textColor="@color/black"
+            android:textFontWeight="500"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/loginRedirectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_light"
+            android:text=" Login"
+            android:textColor="#92A3FD"
+            android:textFontWeight="500"
+            android:textSize="14dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Home1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="35dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textSize="26dp"
+                android:gravity="start|center"
+                android:text="Welcome"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_medium"
+                android:textFontWeight="700"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="325dp"
+                android:layout_height="146dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="22dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#92A3FD">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/banner"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BMI (Body Mass Index)"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/white"
+                        android:text="Measure of body fat based on height and weight"
+                        />
+
+                    <Button
+                        android:id="@+id/bmiCalcu"
+                        android:layout_width="100dp"
+                        android:layout_gravity="start|bottom"
+                        android:layout_height="50dp"
+                        app:cornerRadius="99dp"
+                        android:backgroundTint="#C58BF2"
+                        android:text="Calculate"
+                        android:textAllCaps="false"
+                        android:textSize="11dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:textFontWeight="700"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:background="@drawable/pie"
+                    android:layout_gravity="end|center"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="325dp"
+                android:layout_height="146dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="22dp"
+                android:layout_marginTop="25dp"
+                android:backgroundTint="#92A3FD">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/banner"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Step Counter"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/poppins_medium"
+                        />
+                    <TextView
+                        android:layout_width="165dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+
+                        android:textColor="@color/white"
+                        android:text="Tracks the number of steps taken by the user"
+                        />
+
+                    <Button
+                        android:id="@+id/stepCountBtn"
+                        android:layout_width="100dp"
+                        android:layout_gravity="start|bottom"
+                        android:layout_height="50dp"
+                        app:cornerRadius="99dp"
+                        android:backgroundTint="#C58BF2"
+                        android:text="Go"
+                        android:textAllCaps="false"
+                        android:textSize="11dp"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/poppins_light"
+                        android:textFontWeight="700"/>
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:background="@drawable/jogging"
+                    android:layout_gravity="end|center"/>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

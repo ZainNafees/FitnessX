@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482307112511",
+    "project_id": "fitnessx-2e1b5",
+    "storage_bucket": "fitnessx-2e1b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482307112511:android:831fb0b025cca61b39c28a",
+        "android_client_info": {
+          "package_name": "com.example.fitnessx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482307112511-hbjof771ppgg8kk7i59akhk3tseov4uc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv2klVVW1crLxC5eICXc6-Ob1LPxJRUWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482307112511-hbjof771ppgg8kk7i59akhk3tseov4uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

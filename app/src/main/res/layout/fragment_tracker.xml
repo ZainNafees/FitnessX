@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/alarm"
+    tools:context=".trackerFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select \nTime"
+        android:id="@+id/selectTime"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="35sp"
+        android:layout_marginTop="230dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:gravity="center"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/setAlarm"
+            android:textSize="16sp"
+            android:padding="8dp"
+            app:cornerRadius="10dp"
+            android:layout_marginEnd="20dp"
+
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Set \nAlarm"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelAlarm"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:cornerRadius="10dp"
+            android:padding="8dp"
+
+            android:fontFamily="@font/poppins_medium"
+            android:text="Cancel \nAlarm"/>
+
+    </LinearLayout>
+
+</LinearLayout>

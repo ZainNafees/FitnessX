@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JumpingJack">
+
+    <ImageButton
+        android:id="@+id/btnPrevious"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/close_navs"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical">
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="325dp"
+            android:layout_height="160dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:text="Jumping Jack"
+            android:fontFamily="@font/poppins_medium"
+            android:textFontWeight="700"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy | 390 Calories Burn"
+            android:fontFamily="@font/poppins_light"
+            android:textFontWeight="400"
+            android:textSize="12dp"
+            android:textColor="#7B6F72"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="16dp"
+        android:text="Descriptions"
+        android:fontFamily="@font/poppins_medium"
+        android:textFontWeight="700"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:text="Jumping jacks are a cardiovascular exercise that involves jumping while simultaneously spreading the legs and raising the arms overhead. The movement is repeated several times in a rhythmic fashion, and it is often used as a warm-up or a part of a full-body workout routine."
+        android:fontFamily="@font/poppins_light"
+        android:textFontWeight="400"
+        android:textSize="12dp"
+        android:justificationMode="inter_word"
+        android:textColor="#7B6F72"/>
+
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="01:00"
+        android:textSize="55sp"
+        android:textColor="#7B6F72"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnWorkout"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        app:cornerRadius="99dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#92A3FD"
+        android:text="Start Timer"
+        android:textAllCaps="false"
+        android:textSize="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textFontWeight="700"
+/>
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/onboarding3"
+    android:orientation="vertical"
+    tools:context=".Onboarding3">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="430dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#1D1617"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="Eat Well" />
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#7B6F72"
+            android:textSize="14dp"
+            android:text="Let's start a healthy lifestyle with us, we can determine your diet every day. healthy eating is fun" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/onBoarding3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button3"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

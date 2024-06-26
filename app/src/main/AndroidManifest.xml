@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.NOTIFICATION" />
+    <uses-permission android:name="android.permission.SENSOR" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessX"
+        tools:targetApi="31">
+        <activity
+            android:name=".StepCounter"
+            android:exported="false"
+            />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BeginnerExercise"
+            android:exported="false" />
+        <activity
+            android:name=".BmiResult"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".BMI"
+            android:exported="false" />
+        <activity
+            android:name=".OtpCode"
+            android:exported="false" />
+        <activity
+            android:name=".OtpPhone"
+            android:exported="false" />
+        <activity
+            android:name=".JumpingJack"
+            android:exported="false" />
+        <activity
+            android:name=".workout"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTracker"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".Resgistration"
+            android:exported="false" />
+        <activity
+            android:name=".Onboarding4"
+            android:exported="false" />
+        <activity
+            android:name=".Onboarding3"
+            android:exported="false" />
+        <activity
+            android:name=".Onboarding2"
+            android:exported="false" />
+        <activity
+            android:name=".Onboarding1"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".AlarmReceiver" />
+    </application>
+
+</manifest>

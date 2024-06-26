@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/onboarding1"
+    tools:context=".Onboarding1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="435dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#1D1617"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:text="Track Your Goal" />
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="#7B6F72"
+            android:textSize="14dp"
+            android:text="Don't worry if you have trouble determining your goals, We can help you determine your goals and track your goals" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|bottom"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/onBoarding1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:layout_marginEnd="35dp"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>
